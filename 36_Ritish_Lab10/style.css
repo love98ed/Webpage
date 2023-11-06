@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+#navigation ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+#navigation li {
+    float: left;
+    text-align: center;
+    font-size: 25px;
+}
+
+#navigation a {
+    text-decoration: none;
+    display: block;
+    width: 220px;
+}
+
+#navigation a:hover {
+    background-color: #999;
+}
+
+.footer {
+    text-align: center;
+}
+
+.bgcolor {
+    background-color: #D3C7B1;
+
+}

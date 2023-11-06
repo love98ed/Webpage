@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+        .centers {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+
+    </style>
+</head>
+<body>
+    <img style="image-rendering: pixelated;" src="images/logo.png" alt="banner" width="1200" height="117">
+
+    <div id="navigation">
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="programme.html">Programme</a></li>
+          <li><a href="activities.html">Activities</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+    
+      </ul>
+    </div>
+    
+    <div class="centers">
+    <img  src="images/last.jpg" alt="words" width="600" height="600">
+    </div>
+
+    <div class="footer">
+        <p>ITE HQ</p>
+        <p>10 Dove Drive</p>
+        <p>Singapore 123456</p>
+        <p>Tel: 61234567</p>
+        <p>Email:<a href="mailto:candktraing@yahoo.com">candktraing@yahoo.com</a></p>
+    </div>
+
+    <div>
+        <h2>Please provide your feedback:</h2>
+        <form name="userifo" method="post" id="userinfo" action="/index.html">
+            <fieldset class="bgcolor"><legend>Personal Particulars</legend>
+            <p>First Name *<input type="name" name="firstname" id="name" size="30" maxlength="50" required></p>
+            <i>First Name</i>
+            <p>Last Name *<input type="name" name="lastname" id="name" size="30" maxlength="50" required></p>
+            <i>Last Name</i>
+            <p>Handphone No *<input type="number" name="number" id="number" size="30" maxlength="50" required></p>
+            <i>Phone number</i>
+        </fieldset>
+
+        <fieldset class="bgcolor" >
+        <p>Comments * (limit to 250 character)</p>
+        <textarea name="comments" cols="100" rows="10" maxlength="250"></textarea><br>
+
+        <input type="submit" name="submit" value="submit">
+        <input type="reset" name="reset" value="reset"><br>
+        <br>
+
+        <a href="#"> Back to Top</a>
+        </fieldset>
+        </form>
+    </div>
+
+</body>
+</html>
